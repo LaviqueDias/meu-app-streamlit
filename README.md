@@ -37,7 +37,7 @@ MEU_APP_STREAMLIT/
 
 4. **Execute o aplicativo:**
    ```bash
-   streamlit run app.py
+   python -m streamlit run app.py
    ```
 
 ## 🧠 Funcionalidades
