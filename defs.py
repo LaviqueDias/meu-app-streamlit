@@ -112,3 +112,7 @@ def grafico6(df):
     ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'R${x:,.0f}'.replace(',', 'X').replace('.', ',').replace('X', '.')))
 
     st.pyplot(fig6)
+
+
+if __name__ == "__main__":
+    print("defs.py foi executado diretamente")
