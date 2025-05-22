@@ -8,10 +8,9 @@ Este projeto é uma aplicação interativa desenvolvida com [Streamlit](https://
 ```
 MEU_APP_STREAMLIT/
 ├── .venv/                  # Ambiente virtual (opcional)
-├── defs/
-│   └── read_csv.py         # Função de leitura e pré-processamento do CSV
+├── defs.py                 # Arquivo que contém as funções que geram os gráficos
 ├── app.py                  # Arquivo principal da aplicação Streamlit
-├── dados.csv               # Arquivo CSV de exemplo com os dados
+├── dados.csv               # Arquivo CSV com os dados
 └── README.md               # Documentação do projeto
 ```
 
