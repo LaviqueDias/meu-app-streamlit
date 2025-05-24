@@ -11,7 +11,8 @@ MEU_APP_STREAMLIT/
 ├── defs.py                 # Arquivo que contém as funções que geram os gráficos
 ├── app.py                  # Arquivo principal da aplicação Streamlit
 ├── dados.csv               # Arquivo CSV com os dados
-└── README.md               # Documentação do projeto
+├── README.md               # Documentação do projeto
+└── requirements.txt        # Bibliotecas usadas no projeto  
 ```
 
 ## 🚀 Como Executar o Projeto
@@ -31,7 +32,7 @@ MEU_APP_STREAMLIT/
 
 3. **Instale as dependências:**
    ```bash
-   pip install streamlit pandas matplotlib
+   pip install -r requirements.txt
    ```
 
 4. **Execute o aplicativo:**
